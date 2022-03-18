@@ -35,5 +35,22 @@
       <p>2007-ben megnyerték az egyéni (Räikkönen) és a konstruktőri bajnoki címet is. Utóbbit 2008-ban megvédték, az egyéni címről viszont Felipe Massa a zárófutam utolsó körében lecsúszott. 2010-ben Fernando Alonso volt harcban a bajnoki címért, listavezetőként várta az utolsó versenyt, de a futam nem sikerült, így alulmaradt a Red Bull Racingnél versenyző Vettellel szemben. 2012-ben Alonso ismét a zárófutamig volt esélyes a címre, de ezúttal is Vettel nyerte a bajnokságot. 2014-ben gyenge szezont zárt a csapat, 1993 óta első ízben fordult elő, hogy egész évben nem sikerült futamot nyerniük. 2015-ben Vettel révén három futamot nyertek, a konstruktőri világbajnokságban második helyen zártak a Mercedes mögött. 2016-ban viszont megint nem tudtak futamgyőzelmet elérni, a konstruktőrök között visszacsúsztak a harmadik helyre a Red Bull mögé. 2017-ben a Ferrari a megelőző évekhez képest versenyképesebbnek bizonyult, Vettel sokáig esélyesnek tűnt a Mercedesszel szemben, de a szezon későbbi szakaszában túl sok pontot vesztett, ami miatt elszálltak a világbajnoki reményei. A 2018-as szezont még biztatóbban kezdte a Ferrari, de az év későbbi szakaszában ismét többször hibázott Vettel és a csapat, így ezúttal sem sikerült a világbajnoki cím megszerzése. 2019-ben a motort szabálytalannak minősítették, így 2020-ban jelentősen hátra csúsztak a mezőnyben. 2021-ben a csapat pilótái: Carlos Sainz Jr. És Charles Leclerc. A csapat legsikeresebb versenyzője a hétszeres világbajnok Michael Schumacher, aki öt egyéni bajnoki címet szerzett a Ferrarinak az összes tizenötből.</p>
 
       <img src="ferrari.jpg" alt="ferrari">
+      <script>
+        var mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+      <button class="d-hide back-to-top" onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

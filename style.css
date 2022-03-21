@@ -1,3 +1,8 @@
+@font-face {
+    font-family: ferrariFont;
+    src: url(font/FerroRosso.ttf);
+}
+
 .back-to-top {
     position: fixed;
     right: 2rem;
@@ -26,3 +31,6 @@ body {
     background-color: lightgray;
 }
 
+.ferrariFont{
+    font-family: ferrariFont;
+}

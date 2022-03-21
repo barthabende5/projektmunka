@@ -9,7 +9,7 @@
     bottom: 2rem;
     opacity: 60%;
     border-radius: 100%;
-    background-color: skyblue;
+    background-color: #dc3545;
     cursor: pointer;
 }
 
@@ -33,4 +33,9 @@ body {
 
 .ferrariFont{
     font-family: ferrariFont;
+    font-size: 3rem;
+}
+
+.navbar{
+    width: 85%;
 }

@@ -39,3 +39,7 @@ body {
 .navbar{
     width: 85%;
 }
+
+.underline:hover{
+    text-decoration: underline;
+}

@@ -1,6 +1,20 @@
+:root{
+    --bs-danger-rgb: 179, 28, 0;
+}
+
 @font-face {
     font-family: ferrariFont;
-    src: url(font/FerroRosso.ttf);
+    src: url('font/FerroRosso.ttf');
+}
+
+@font-face{
+    font-family: f1Bold;
+    src: url('font/Formula1_bold.ttf');
+}
+
+@font-face{
+    font-family: f1Regular;
+    src: url('font/Formula1_regular.ttf');
 }
 
 .back-to-top {
@@ -9,7 +23,7 @@
     bottom: 2rem;
     opacity: 60%;
     border-radius: 100%;
-    background-color: #dc3545;
+    background-color: rgb( 179, 28, 0);
     cursor: pointer;
 }
 
@@ -31,7 +45,7 @@ body {
     background-color: lightgray;
 }
 
-.ferrariFont{
+.ferrari_font{
     font-family: ferrariFont;
     font-size: 3rem;
 }
@@ -42,4 +56,14 @@ body {
 
 .underline:hover{
     text-decoration: underline;
+}
+
+.f1_bold{
+    font-family: f1Bold;
+    font-size: 3rem;
+}
+
+.f1_regular{
+    font-family: f1Regular;
+    font-size: 1rem;
 }

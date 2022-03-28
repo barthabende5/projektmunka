@@ -1,5 +1,6 @@
 :root{
     --bs-danger-rgb: 179, 28, 0;
+    --bs-warning-rgb: 224, 97, 14;
 }
 
 @font-face {
@@ -15,6 +16,10 @@
 @font-face{
     font-family: f1Regular;
     src: url('font/Formula1_regular.ttf');
+}
+
+html{
+    background-color: lightgray;
 }
 
 .back-to-top {
@@ -41,10 +46,6 @@ h1 {
     text-align: center;
 }
 
-body {
-    background-color: lightgray;
-}
-
 .ferrari_font{
     font-family: ferrariFont;
     font-size: 3rem;
@@ -67,3 +68,13 @@ body {
     font-family: f1Regular;
     font-size: 1rem;
 }
+
+th{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.border_yellow{
+    border-color: rgb(224, 97, 14) !important;
+}
+

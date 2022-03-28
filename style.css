@@ -78,3 +78,11 @@ th{
     border-color: rgb(224, 97, 14) !important;
 }
 
+#preloader{
+    background: lightgray url('img/preloader.gif') no-repeat center center;
+    background-size: 40%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}

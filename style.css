@@ -1,6 +1,7 @@
 :root{
     --bs-danger-rgb: 179, 28, 0;
     --bs-warning-rgb: 224, 97, 14;
+    --bs-info-rgb: 0, 153, 148;
 }
 
 @font-face {

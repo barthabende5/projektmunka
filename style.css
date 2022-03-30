@@ -1,6 +1,8 @@
 :root{
     --bs-danger-rgb: 179, 28, 0;
     --bs-warning-rgb: 224, 97, 14;
+    --bs-info-rgb: 26, 177, 172;
+    --bs-primary-rgb: 29, 25, 172;
 }
 
 @font-face {
@@ -18,17 +20,37 @@
     src: url('font/Formula1_regular.ttf');
 }
 
-html{
+body{
     background-color: lightgray;
 }
 
-.back-to-top {
+.back-to-top-ferrari {
     position: fixed;
     right: 2rem;
     bottom: 2rem;
     opacity: 60%;
     border-radius: 100%;
     background-color: rgb( 179, 28, 0);
+    cursor: pointer;
+}
+
+.back-to-top-mercedes {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    opacity: 60%;
+    border-radius: 100%;
+    background-color: rgb( 26, 177, 172);
+    cursor: pointer;
+}
+
+.back-to-top-mclaren {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    opacity: 60%;
+    border-radius: 100%;
+    background-color: rgb( 224, 97, 14);
     cursor: pointer;
 }
 
@@ -59,6 +81,7 @@ h1 {
     text-decoration: underline;
 }
 
+
 .f1_bold{
     font-family: f1Bold;
     font-size: 3rem;
@@ -80,6 +103,18 @@ th{
 
 .border_red{
     border-color: rgb(179, 28, 0) !important;
+}
+
+.border_info{
+    border-color: rgb(26, 177, 172) !important;
+}
+
+.border_blue{
+    border-color: rgb(29, 25, 172) !important;
+}
+
+.outline{
+    -webkit-text-stroke: 1px white;
 }
 
 #preloader{

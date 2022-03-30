@@ -2,6 +2,7 @@
     --bs-danger-rgb: 179, 28, 0;
     --bs-warning-rgb: 224, 97, 14;
     --bs-info-rgb: 0, 153, 148;
+    --bs-secondary-rgb: 0, 76, 109;
 }
 
 @font-face {
@@ -81,6 +82,14 @@ th{
 
 .border_red{
     border-color: rgb(179, 28, 0) !important;
+}
+
+.border_info{
+    border-color: rgb(0, 153, 148) !important;
+}
+
+.border_blue{
+    border-color:rgb(0, 76, 109) !important;
 }
 
 #preloader{

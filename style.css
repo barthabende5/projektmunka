@@ -54,6 +54,16 @@ body{
     cursor: pointer;
 }
 
+.back-to-top-redbull{
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    opacity: 60%;
+    border-radius: 100%;
+    background-color: rgb( 29, 25,172);
+    cursor: pointer;
+}
+
 .back-to-top:hover{
     opacity: 100%;
     transition: 0.5s;

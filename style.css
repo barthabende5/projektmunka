@@ -5,11 +5,6 @@
     --bs-primary-rgb: 29, 25, 172;
 }
 
-@font-face {
-    font-family: ferrariFont;
-    src: url('font/FerroRosso.ttf');
-}
-
 @font-face{
     font-family: f1Bold;
     src: url('font/Formula1_bold.ttf');

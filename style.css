@@ -27,7 +27,7 @@ body{
 .back-to-top-ferrari {
     position: fixed;
     right: 2rem;
-    bottom: 2rem;
+    bottom: 7rem;
     opacity: 60%;
     border-radius: 100%;
     background-color: rgb( 179, 28, 0);
@@ -37,7 +37,7 @@ body{
 .back-to-top-mercedes {
     position: fixed;
     right: 2rem;
-    bottom: 2rem;
+    bottom: 7rem;
     opacity: 60%;
     border-radius: 100%;
     background-color: rgb( 26, 177, 172);
@@ -47,7 +47,7 @@ body{
 .back-to-top-mclaren {
     position: fixed;
     right: 2rem;
-    bottom: 2rem;
+    bottom: 7rem;
     opacity: 60%;
     border-radius: 100%;
     background-color: rgb( 224, 97, 14);
@@ -57,7 +57,7 @@ body{
 .back-to-top-redbull{
     position: fixed;
     right: 2rem;
-    bottom: 2rem;
+    bottom: 7rem;
     opacity: 60%;
     border-radius: 100%;
     background-color: rgb( 29, 25,172);
@@ -135,3 +135,22 @@ th{
     position: fixed;
     z-index: 100;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.footer_logo{
+    opacity: 50%;
+}
+
+.footer_logo:hover{
+    opacity: 100%;
+}
+

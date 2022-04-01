@@ -1,8 +1,13 @@
 :root{
     --bs-danger-rgb: 179, 28, 0;
     --bs-warning-rgb: 224, 97, 14;
-    --bs-info-rgb: 26, 177, 172;
-    --bs-primary-rgb: 29, 25, 172;
+    --bs-info-rgb: 0, 153, 148;
+    --bs-secondary-rgb: 0, 76, 109;
+}
+
+@font-face {
+    font-family: ferrariFont;
+    src: url('font/FerroRosso.ttf');
 }
 
 @font-face{
@@ -15,47 +20,17 @@
     src: url('font/Formula1_regular.ttf');
 }
 
-body{
+html{
     background-color: lightgray;
 }
 
-.back-to-top-ferrari {
+.back-to-top {
     position: fixed;
     right: 2rem;
-    bottom: 7rem;
+    bottom: 2rem;
     opacity: 60%;
     border-radius: 100%;
     background-color: rgb( 179, 28, 0);
-    cursor: pointer;
-}
-
-.back-to-top-mercedes {
-    position: fixed;
-    right: 2rem;
-    bottom: 7rem;
-    opacity: 60%;
-    border-radius: 100%;
-    background-color: rgb( 26, 177, 172);
-    cursor: pointer;
-}
-
-.back-to-top-mclaren {
-    position: fixed;
-    right: 2rem;
-    bottom: 7rem;
-    opacity: 60%;
-    border-radius: 100%;
-    background-color: rgb( 224, 97, 14);
-    cursor: pointer;
-}
-
-.back-to-top-redbull{
-    position: fixed;
-    right: 2rem;
-    bottom: 7rem;
-    opacity: 60%;
-    border-radius: 100%;
-    background-color: rgb( 29, 25,172);
     cursor: pointer;
 }
 
@@ -86,7 +61,6 @@ h1 {
     text-decoration: underline;
 }
 
-
 .f1_bold{
     font-family: f1Bold;
     font-size: 3rem;
@@ -111,15 +85,11 @@ th{
 }
 
 .border_info{
-    border-color: rgb(26, 177, 172) !important;
+    border-color: rgb(0, 153, 148) !important;
 }
 
 .border_blue{
-    border-color: rgb(29, 25, 172) !important;
-}
-
-.outline{
-    -webkit-text-stroke: 1px white;
+    border-color:rgb(0, 76, 109) !important;
 }
 
 #preloader{
@@ -130,22 +100,3 @@ th{
     position: fixed;
     z-index: 100;
 }
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-a:hover{
-    color: white;
-    text-decoration: underline;
-}
-
-.footer_logo{
-    opacity: 50%;
-}
-
-.footer_logo:hover{
-    opacity: 100%;
-}
-
